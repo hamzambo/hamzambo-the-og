@@ -2,7 +2,7 @@ collections:
   authors:
     output: true
 
-theme: modernist
+remote_theme: pages-themes/modernist@v0.2.0
 
 defaults:
   - scope:
