@@ -19,11 +19,11 @@
   <body>
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
+        {% include navigation.html %}
         {% if site.description or site.github.project_tagline %}
         {% endif %}
       </header>
       <section>
-{% include navigation.html %}
     
       {{ content }}
 
