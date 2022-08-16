@@ -22,3 +22,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme 
+  
+  themes:
+    remote_theme: pages-themes/architect@v0.2.0
